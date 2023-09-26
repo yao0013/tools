@@ -58,3 +58,5 @@ if __name__ == "__main__":
     destination_folder = r"D:\视频素材\0814\pic"
 
     move_images(source_folder, destination_folder)
+
+#藏文件
