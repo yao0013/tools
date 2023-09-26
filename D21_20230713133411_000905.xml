@@ -1,0 +1,68 @@
+<annotation>
+	<folder>D21_20230713133411</folder>
+	<filename>D21_20230713133411_000905.jpg</filename>
+	<path>F:\AI项目\0718\D21_20230713133411\D21_20230713133411_000905.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	
+	<object>
+		<name>helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>554.4713745117188</xmin>
+			<ymin>49.55669021606445</ymin>
+			<xmax>644.4713745117188</xmax>
+			<ymax>158.3066864013672</ymax>
+		</bndbox>
+	</object>
+	
+	<object>
+		<name>helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>887.7662963867188</xmin>
+			<ymin>50.160423278808594</ymin>
+			<xmax>981.5162963867188</xmax>
+			<ymax>170.16041564941406</ymax>
+		</bndbox>
+	</object>
+	
+	<object>
+		<name>helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1358.3951416015625</xmin>
+			<ymin>210.21290588378906</ymin>
+			<xmax>1478.3951416015625</xmax>
+			<ymax>326.462890625</ymax>
+		</bndbox>
+	</object>
+	
+	<object>
+		<name>helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1609.8665771484375</xmin>
+			<ymin>187.16078186035156</ymin>
+			<xmax>1673.6165771484375</xmax>
+			<ymax>254.66078186035156</ymax>
+		</bndbox>
+	</object>
+	
+
+</annotation>

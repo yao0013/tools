@@ -1,0 +1,29 @@
+<annotation>
+	<folder>D21_20230713133411</folder>
+	<filename>D21_20230713133411_000920.jpg</filename>
+	<path>F:\AI项目\0718\D21_20230713133411\D21_20230713133411_000920.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	{% for bbox_value in bbox_values %}
+	<object>
+		<name>helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>{{ bbox_value.left_top_x }}</xmin>
+			<ymin>{{ bbox_value.left_top_y }}</ymin>
+			<xmax>{{ bbox_value.right_bottom_x }}</xmax>
+			<ymax>{{ bbox_value.right_bottom_y }}</ymax>
+		</bndbox>
+	</object>
+	{% endfor %}
+
+</annotation>
