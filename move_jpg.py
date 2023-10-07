@@ -20,7 +20,7 @@ def move_jpg_files(source_folder, destination_folder):
     print(f"共移动 {total_images} 个文件")
 
 if __name__ == "__main__":
-    source_folder = r"D:\ai-video\2023-08-15"
-    destination_folder = r"D:\ai-video\2023-08-15\xml"
+    source_folder = r"D:\ai-video\0927"
+    destination_folder = r"D:\ai-video\0927pic\xml"
 
     move_jpg_files(source_folder, destination_folder)

@@ -27,7 +27,7 @@ def count_labels_in_directory(directory_path):
 
 
 if __name__ == "__main__":
-    directory_path = "D:\\ai-video\\0922\\"
+    directory_path = r"D:\ai-video\0927pic\xml"
     label_counts = count_labels_in_directory(directory_path)
 
     for name, count in label_counts.items():

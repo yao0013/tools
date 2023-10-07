@@ -54,8 +54,8 @@ def move_images(source_folder, destination_folder):
 
 
 if __name__ == "__main__":
-    source_folder = r"D:\视频素材\0814"
-    destination_folder = r"D:\视频素材\0814\pic"
+    source_folder = r"D:\ai-video\0927"
+    destination_folder = r"D:\ai-video\0927pic"
 
     move_images(source_folder, destination_folder)
 
