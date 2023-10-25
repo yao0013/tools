@@ -8,14 +8,14 @@ import shutil
 import zipfile
 
 # 设置日志记录
-logging.basicConfig(filename='download_log.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='label/download_log.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # 设置文件夹路径
 output_folder = 'output'  # 输出文件夹的路径
 os.makedirs(output_folder, exist_ok=True)  # 如果文件夹不存在则创建
 
 # 读取Excel文件
-excel_file = '10.xlsx'  # 替换成你的Excel文件路径
+excel_file = 'label/10.xlsx'  # 替换成你的Excel文件路径
 df = pd.read_excel(excel_file)
 download_count = 0
 
